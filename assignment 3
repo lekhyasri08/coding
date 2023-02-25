@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	float i,n,a,num=0;
+	scanf("%f",&n);
+	for(i=1;i<=n;i++)
+	{
+		a=1/i;
+		num=num+a;
+	}
+	printf("%.4f\n",num);
+}
